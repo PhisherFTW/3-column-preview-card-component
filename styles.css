@@ -3,13 +3,14 @@ font-family: 'Lexend Deca', sans-serif; */
 
 body {
     background-color: hsl(0, 0%, 95%);
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
 }
 main {
     display: flex;
-    flex-direction: row;
     width: 60rem;
     height: fit-content;
-    margin: 5rem auto 0 auto;
     color: hsl(0, 0%, 95%);
 }
 .sedandiv {
@@ -33,7 +34,7 @@ main {
     border-radius: 0 15px 15px 0;
 }
 .img {
-    width: 5rem;
+    width: 3.5rem;
     height: auto;
     padding-left: 24px;
 
@@ -59,6 +60,7 @@ p {
     width: 10rem;
     font-family: 'Lexend Deca', sans-serif;
     font-weight: 400;
+    cursor: pointer
 }
 .btn2 {
     color: hsl(184, 100%, 22%);
@@ -69,6 +71,7 @@ p {
     width: 10rem;
     font-family: 'Lexend Deca', sans-serif;
     font-weight: 400;
+    cursor: pointer
 }
 .btn3 {
     color: hsl(179, 100%, 13%);
@@ -79,6 +82,7 @@ p {
     width: 10rem;
     font-family: 'Lexend Deca', sans-serif;
     font-weight: 400;
+    cursor: pointer;
 }
 
 .btn1:hover{
