@@ -2,7 +2,7 @@
 font-family: 'Lexend Deca', sans-serif; */
 
 body {
-    background-color: white;
+    background-color: hsl(0, 0%, 95%);
 }
 main {
     display: flex;
@@ -10,7 +10,7 @@ main {
     width: 60rem;
     height: fit-content;
     margin: 5rem auto 0 auto;
-    color: white;
+    color: hsl(0, 0%, 95%);
 }
 .sedandiv {
     display: flex;
@@ -33,7 +33,7 @@ main {
     border-radius: 0 15px 15px 0;
 }
 .img {
-    width: 3.5rem;
+    width: 5rem;
     height: auto;
     padding-left: 24px;
 
@@ -41,18 +41,19 @@ main {
 h1 {
     font-family: 'Big Shoulders Display', cursive;
     font-weight: 700;
-    padding-left: 13px;
+    padding-left: 24px;
 }
 p {
     font-family: 'Lexend Deca', sans-serif;
     font-weight: 400;
     font-size: 15px;
     padding: 0 13px 4rem;
+    color: hsla(0, 0%, 100%, 0.75);
 }
 .btn1 {
     color: hsl(31, 77%, 52%);
     border-style: solid;
-    border-color: white;
+    border-color: hsl(0, 0%, 95%);
     border-radius: 50px;
     padding: 1rem 0.25rem;
     width: 10rem;
@@ -62,7 +63,7 @@ p {
 .btn2 {
     color: hsl(184, 100%, 22%);
     border-style: solid;
-    border-color: white;
+    border-color: hsl(0, 0%, 95%);
     border-radius: 50px;
     padding: 1rem 0.25rem;
     width: 10rem;
@@ -72,7 +73,7 @@ p {
 .btn3 {
     color: hsl(179, 100%, 13%);
     border-style: solid;
-    border-color: white;
+    border-color: hsl(0, 0%, 95%);
     border-radius: 50px;
     padding: 1rem 0.25rem;
     width: 10rem;
@@ -95,7 +96,7 @@ p {
     background-color: hsl(179, 100%, 13%);
     color: white;
 }
-@media (max-width: 1025px) {
+@media (max-width: 1440px) {
     main {
         display: flex;
         flex-direction: column;
